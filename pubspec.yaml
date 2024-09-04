@@ -1,0 +1,50 @@
+name: daily_news
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.4.1
+  dio: ^5.6.0
+  cached_network_image: ^3.4.1
+  webview_flutter: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1  # Move this here under dev_dependencies
+
+
+flutter_native_splash:
+  color: "0xff#46A1BE"  # لون الخلفية لشاشة البداية
+  image: assets/icon/Icon.jpeg # مسار الصورة التي ستظهر
+  #image_dark: assets/icon/app_icon_dark.png  # مسار الصورة في الوضع الداكن (اختياري)
+  android: true
+  ios: true
+  web: false
+  # تكبير حجم الصورة
+  
+  android_gravity: fill  # تمركز الصورة في المنتصف
+  ios_content_mode: fill  # تمركز الصورة في المنتصف في iOS
+  fullscreen: true  # اجعل شاشة البداية تمتد على كامل الشاشة
+
+
+flutter_icons:  # Move flutter_icons to the correct level
+  android: true
+  ios: true
+  image_path: "assets/icon/Icon.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icon/app_icon.png
+    - assets/icon/Icon.jpeg
