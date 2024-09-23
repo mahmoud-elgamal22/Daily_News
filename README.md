@@ -1,16 +1,14 @@
-# daily_news
+# Daily News App
 
-A new Flutter project.
+Daily News is a mobile application that provides users with easy access to daily news. The app allows users to browse the latest news from various sources, categorized by topics such as global news, technology, and sports.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User-friendly interface displaying news in an organized manner.
+- Browse news from multiple sources simultaneously.
+- View news articles by different categories.
+- Available on both Android and iOS devices.
 
-A few resources to get you started if this is your first Flutter project:
+## Purpose of the Project
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The goal of the Daily News app is to offer users a quick and convenient way to stay updated with the latest daily news from multiple sources, all within a simple and smooth user interface.
